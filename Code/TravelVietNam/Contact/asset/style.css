@@ -1,0 +1,287 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner_contact {
+  background-image: url(./img/bradcam4.png.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+  position: relative;
+  z-index: 0;
+}
+
+.col_intro {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.banner_text {
+  text-align: center;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner_text h3 {
+  font-size: 60px;
+  font-weight: 500px;
+  line-height: 90px;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.banner_text p {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.contact_title {
+  width: 100%;
+  position: inherit;
+  padding-top: 30px;
+}
+
+.contact_title h2 {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col_1 {
+  flex: 0 0 70%;
+  max-width: 70%;
+  position: relative;
+  padding-left: 20px;
+  margin-right: 60px;
+}
+
+.form_row {
+  width: 100%;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  padding: 1rem;
+  border: 1px solid #ced4da;
+  font-size: 16px;
+}
+
+.form_control {
+  display: block;
+  width: 100%;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  padding: 1rem 1rem;
+  margin-bottom: 30px;
+}
+
+.contact_button {
+  background: #07d1bd;
+  border: 1px solid #07d1bd;
+  color: white;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+button:hover {
+  background-color: red;
+  border: 1px red;
+  color: white;
+}
+
+.col_2 {
+  flex: 0 0 23%;
+  max-width: 23%;
+}
+
+.contact_icon {
+  float: left;
+  font-size: 32px;
+  margin-right: 20px;
+  color: #8a8a8a;
+}
+
+.media_body p {
+  display: block;
+  color: #8a8a8a;
+  padding-bottom: 15px;
+}
+
+footer {
+  background-color: #040e27;
+  position: relative;
+  margin-top: 10%;
+}
+
+body {
+  margin: 0;
+}
+
+.footer_info {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container {
+  max-width: 960px;
+  width: 960px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_col {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer_col_1 {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+p {
+  color: #acacac;
+  line-height: 2em;
+}
+
+.footer_socail {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.footer_col_2 {
+  flex: 0 0 15%;
+  max-width: 15%;
+}
+
+.footer_col_3 {
+  flex: 0 0 27.5%;
+  max-width: 27.5%;
+}
+
+.footer_double_links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.address_left {
+  flex: 0 0 50%;
+  max-width: 50%;
+  float: left;
+}
+.address_right {
+  flex: 0 0 50%;
+  max-width: 50%;
+  flex: right;
+}
+
+.footer_col_4 {
+  flex: 0 0 27.5%;
+  max-width: 27.5%;
+}
+
+.footer_title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.colorrib {
+  color: red;
+}
+
+ul {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  color: #acacac;
+  font-size: 16px;
+  line-height: 36px;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #acacac;
+}
+
+a:hover {
+  color: red;
+}
+
+.footer_ins_img {
+  float: left;
+  width: 33%;
+  padding: 8px;
+}
+
+.ins_img_edit {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.footer_line {
+  border-top: 1px solid #acacac;
+  padding-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.col_addR {
+  position: inherit;
+  width: 100%;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
